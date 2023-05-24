@@ -1,12 +1,19 @@
 ---
-layout: single
+layout: splash 
 title:  "Enviar mensajes a Telegram desde Home Assistant"
 date:   2023-05-24 16:01:15 +0200
 categories: configuraciones domótica home-assistant
+header:
+  overlay_image: /images/home-assistant--banner.jpg
+  overlay_filter: 0.5 
+excerpt: |
+  Home Assistant es un software libre que permite la automatización de tareas del hogar y al que pueden añadirse literalmente miles de plugins que permiten la automatización de casi cualquier cosa que puedas imaginar.
 ---
-[Home Assistant](https://www.home-assistant.io) es un software libre que permite la automatización de tareas del hogar y al que pueden añadirse literalmente miles de plugins que permiten la automatización de casi cualquier cosa que puedas imaginar, desde subir o bajar las persianas dependiendo de la luz solar hasta gestionar las diferentes cámaras de seguridad (ver post relativo a [Frigate](/configuraciones/domótica/frigate/instalacion-y-configuracion-de-frigate)), pasando por una automatización que encienda la televisión cuando llegas a casa, por ejemplo.
+Desde subir o bajar las persianas dependiendo de la luz solar hasta gestionar las diferentes cámaras de seguridad (ver post relativo a [Frigate](/configuraciones/domótica/frigate/instalacion-y-configuracion-de-frigate)), pasando por una automatización que encienda la televisión cuando llegas a casa, con [Home Assistant](https://www.home-assistant.io) puedes automatizar casi cualquiera de las cosas que ocurren en tu hogar.
 
-Home Assistant permite enviar notificaciones de forma nativa tanto a la aplicación para Android o iOS como a uno o más canales de Telegram. 
+Además, Home Assistant permite enviar notificaciones de forma nativa tanto a la aplicación para Android o iOS como a uno o más canales de Telegram. 
+
+En el blog de [Manel Rodero](https://www.manelrodero.com/blog/instalacion-de-home-assistant-en-docker) encontrarás instrucciones precisas sobre cómo instalar Home Assistant en un docker, sin duda la mejor de las opciones disponibles.
 
 Para poder enviar mensajes a un canal de Telegram primero tendremos que crear un bot de Telegram, lo que podremos realizar fácilmente siguiendo las siguientes instrucciones:
 

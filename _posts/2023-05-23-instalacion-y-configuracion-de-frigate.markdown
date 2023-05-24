@@ -1,15 +1,21 @@
 ---
-layout: single
+layout: splash
 title:  "Instalación y configuración de Frigate"
 date:   2023-05-23 18:45:15 +0200
 categories: configuraciones domótica frigate
+header:
+  overlay_image: /images/frigate--banner.jpg
+  overlay_filter: 0.5 
+excerpt: |
+  Frigate es un NVR de código abierto que permite la detección de objetos por IA en tiempo real y en local.
 ---
-[Frigate](https://frigate.video) es un NVR de código abierto que permite la detección de objetos por IA en tiempo real.
-Es interesante porque el procesamiento de las imágenes se realiza localmente por lo que las grabaciones, y por ende tu privacidad, están a salvo dentro de tu red local.
+La mayoría de las cámaras para seguridad privada ofrecen detección de objetos, bien sea usando detección de movimiento (las más) o algún tipo de Inteligencia Artificial (las menos), y la práctica totalidad almacenan los vídeos e imágenes en su cloud, lo que pone el interior de tu casa a disposición de casi cualquiera. 
+
+[Frigate](https://frigate.video) es un NVR de código abierto que permite la detección de objetos por IA en tiempo real y es interesante por varios motivos, entre los que destaca que el procesamiento de las imágenes se realiza en local, aunque también es interesante que permite combinar cámaras de diferentes fabricantes, soportando la práctica totalidad de protocolos de acceso.
 
 En conjunción con una o más tarjetas [Coral](https://coral.ai) es capaz de procesar en tiempo real múltiples cámaras (media docena o más) en ordenadores con un hardware no demasiado puntero.
 
-En mi caso particular uso como centro domótico un ordenador portátil **HP Elitebook 820 G1** con las siguientes características:
+En mi caso particular uso como centro de domótica un ordenador portátil **HP Elitebook 820 G1** con las siguientes características:
 
 {% highlight plaintext %}
 CPU Intel Core i5 4300U a 1.9 GHz (hasta 2.9 GHz en modo turbo)
@@ -132,3 +138,4 @@ cameras:
 
 En esta configuración cabe destacar el uso de *go2rtc* para acceder a las cámaras, mientras que el resto de procesos (entre ellos el de detección) se conectan  al stream de *go2rtc*, lo que permitirá minimizar el número de conexiones a las cámaras, que está limitado en determinadas marcas y/o modelos. 
 
+Finalmente indicar que la instalación de Frigate se integra en Home Assistant a través de HACS, que es una tienda de aplicaciones no oficial para Home Assistant y para cuya instalación seguí las instrucciones publicadas en el blog de [Manel Rodero](https://www.manelrodero.com/blog/instalacion-de-hacs-en-home-assistant-docker).
