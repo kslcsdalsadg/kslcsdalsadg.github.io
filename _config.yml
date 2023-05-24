@@ -106,7 +106,10 @@ analytics:
 author:
   name             : "Roberto P. Rubio"
   avatar           : "/images/avatar-512.jpg"
-  bio              : "No soy más que un **gigoló** cincuentón."
+  bio              : |
+    Mi foto de perfil me la hice en 2005.
+    <br>
+    Ahora no soy más que un *gigoló* cincuentón.
   location         : "Barcelona, EU"
   email            :
   links:
