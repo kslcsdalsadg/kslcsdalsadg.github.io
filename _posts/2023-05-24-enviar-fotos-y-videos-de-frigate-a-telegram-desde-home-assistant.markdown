@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Enviar fotos y vídeos de Frigate a Telegram"
+title:  "Enviar fotos y vídeos de Frigate a Telegram desde Home Assistant"
 date:   2023-05-24 17:01:15 +0200
 categories: configuraciones domótica home-assistant frigate
 ---
