@@ -25,8 +25,8 @@ url                      : "https://robertoprubio.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "robertoprubio/robertoprubio.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : #"/images/88x88.png"
-masthead_title           : " "# overrides the website title displayed in the masthead, use " " for no title
+logo                     : "/images/avatar-100.png"
+masthead_title           : "Inicio" # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -111,11 +111,11 @@ author:
     <br>
     Ahora no soy más que un *gigoló* cincuentón.
   location         : "Barcelona, EU"
-  email            :
+  email            : "dwsko24k@duck.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:your.name@email.com"
+      url: "mailto:dwsko24k@duck.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://ryosoftware.com"
