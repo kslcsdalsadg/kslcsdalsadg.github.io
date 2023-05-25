@@ -111,11 +111,11 @@ author:
     <br>
     Ahora no soy más que un *gigoló* cincuentón.
   location         : "Barcelona, EU"
-  email            : ""
+  email            : "dwsko24k@duck.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:dwsko24k@duck.com"
+      #url: "mailto:dwsko24k@duck.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       # url: "https://ryosoftware.com"
