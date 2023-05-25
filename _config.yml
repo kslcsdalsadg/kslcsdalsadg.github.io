@@ -25,8 +25,8 @@ url                      : "https://robertoprubio.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "robertoprubio/robertoprubio.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/images/avatar-100.jpg"
-masthead_title           : "Inicio" # overrides the website title displayed in the masthead, use " " for no title
+logo                     : "/images/site-logo--128.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Roberto P. Rubio"
-  avatar           : "/images/avatar-512.jpg"
+  avatar           : "/images/bio-photo--512.jpg"
   bio              : |
     Mi foto de perfil me la hice en 2005.
     <br>
