@@ -111,7 +111,7 @@ author:
     <br>
     Ahora no soy más que un *gigoló* cincuentón.
   location         : "Barcelona, EU"
-  email            : "dwsko24k@duck.com"
+  email            : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -135,6 +135,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:dwsko24k@duck.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/robertoprubio"
