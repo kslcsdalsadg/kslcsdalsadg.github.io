@@ -39,7 +39,8 @@ action:
       data:
         parse_mode: html
         photo:
-          - url: {{ base_location }}/api/frigate/notifications/{{ id }}/snapshot.jpg?format=android
+          - url: >-
+              {{ base_location }}/api/frigate/notifications/{{ id }}/snapshot.jpg?format=android
             caption: Foto {{ camera_name }}
 variables:
   base_location: http://127.0.0.1:8123
@@ -52,6 +53,8 @@ variables:
 mode: single
 {% endraw %}
 {% endhighlight %}
+
+Ten en cuenta que el nombre del servicio, *notify.telegram_urgente* en mi caso, tendrá que ser el que hayas indicado en la configuración de Home Assistant (ver post [cómo crear un bot en Telegram](/configuraciones/domótica/home-assistant/enviar-mensajes-a-telegram-desde-home-assistant)).
 
 Es interesante notar que para que la automatización se inicie usamos el topic *frigate/events* que es el que usa Frigate para el envío de mensajes a través de *mqtt*. Además, como Frigate envía varios mensajes cada vez que realiza una detección, tendremos especial cuidado de enviar notificación sólo de las nuevas detecciones y, como Frigate nos permite detectar muchos objetos diferentes, notificaremos sólo las detecciones de personas (desgraciadamente la detección de Frigate no es perfecta y un cierto número de detecciones son falsos positivos, [que podemos mitigar en mayor o menor medida](https://docs.frigate.video/guides/false_positives)).
 
@@ -83,7 +86,8 @@ action:
       data:
         parse_mode: html
         video:
-          - url: {{ base_location }}/api/frigate/notifications/{{ id }}/{{ camera }}/clip.mp4
+          - url: >-
+              {{ base_location }}/api/frigate/notifications/{{ id }}/{{ camera }}/clip.mp4
             caption: Vídeo {{ camera_name }}
 variables:
   base_location: http://127.0.0.1:8123
