@@ -47,7 +47,7 @@ En mi caso uso el Jekyll y el tema Minimal Mistakes, por lo que la integración 
     glowCookies.start('es', {
         style: 1,
         analytics: 'G-XXXXXXXXXXXXXXX',
-        policyLink: 'https://robertoprubio.github.io/privacy',
+        policyLink: 'https://link-to-your-policy.com',
         hideAfterClick: true,
         position: 'right'
     });
