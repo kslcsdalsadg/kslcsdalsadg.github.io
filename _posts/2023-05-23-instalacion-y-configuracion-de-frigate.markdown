@@ -4,7 +4,7 @@ title:  "Instalación y configuración de Frigate"
 date:   2023-05-23 18:45:15 +0200
 categories: configuraciones domótica frigate
 header:
-  overlay_image: /images/frigate--banner.jpg
+  overlay_image: /assets/images/frigate--banner.jpg
   overlay_filter: 0.5 
 excerpt: |
   Frigate es un NVR de código abierto que permite la detección de objetos por IA en tiempo real y en local.

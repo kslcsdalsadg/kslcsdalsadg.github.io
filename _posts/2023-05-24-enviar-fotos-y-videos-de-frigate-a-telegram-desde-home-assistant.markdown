@@ -4,7 +4,7 @@ title:  "Enviar fotos y vídeos de Frigate a Telegram desde Home Assistant"
 date:   2023-05-24 17:01:15 +0200
 categories: configuraciones domótica home-assistant frigate
 header:
-  overlay_image: /images/home-assistant--banner.jpg
+  overlay_image: /assets/images/home-assistant--banner.jpg
   overlay_filter: 0.5 
 excerpt: |
   Ejemplo práctico de cómo enviar mensajes a un canal de Telegram usando una automatización de Home Assistant.

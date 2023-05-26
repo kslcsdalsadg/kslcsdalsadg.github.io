@@ -4,7 +4,7 @@ title:  "Script para backup de datos de un docker"
 date:   2023-05-25 15:11:15 +0200
 categories: configuraciones domótica dockers
 header:
-  overlay_image: /images/docker--banner.jpg
+  overlay_image: /assets/images/docker--banner.jpg
   overlay_filter: 0.5 
 excerpt: |
   ¿Cómo hacer una copia de seguridad de los datos de tus dockers?

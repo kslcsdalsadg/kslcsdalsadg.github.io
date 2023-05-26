@@ -4,7 +4,7 @@ author_profile: true
 page:
   masthead: false
 header:
-  overlay_image: /images/home--banner.jpg
+  overlay_image: /assets/images/home--banner.jpg
   overlay_filter: 0.5 
 excerpt: |
     ¡Bienvenido a mi web personal!
