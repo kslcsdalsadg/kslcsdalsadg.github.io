@@ -19,7 +19,7 @@ Hace ya algún tiempo la UE aprobó, no sin bastantes problemas, una directiva q
 
 Así, todos los sitios web, independientemente de que sean gestionados por empresas o particulares, están obligados a obtener este consentimiento si usan cookies en sus sitios web o si usan herramientas que las utilizan, como por ejemplo Google Analytics.
 
-Existen multitud de herramientas que permiten gestionar este consentimiento pero personalmente utilizo [Glow Cookies](https://github.com/manucaralmo/GlowCookies), porque es muy fácil de integrar en cualquier sitio web y porque usa la [licencia GPL 3.0](https://es.wikipedia.org/wiki/GNU_General_Public_License).
+Existen multitud de herramientas que permiten gestionar este consentimiento pero personalmente utilizo [Glow Cookies](https://github.com/manucaralmo/GlowCookies), porque es muy fácil de integrar en cualquier sitio web y porque usa la [licencia GPL 3.0](https://es.wikipedia.org/wiki/GNU_General_Public_License). 
 
 La integración de Glow Cookies en un sitio web es muy sencilla, ya que simplemente deberemos incluir la siguiente porción de código en todas las páginas de nuestro sitio:
 
