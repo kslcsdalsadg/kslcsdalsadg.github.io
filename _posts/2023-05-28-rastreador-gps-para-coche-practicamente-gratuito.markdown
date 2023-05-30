@@ -28,14 +28,14 @@ A continuación enviaremos 3 SMS al número de teléfono asociado al rastreador 
 2. APN,orangeworld#
 3. server,0,46.101.24.212,5023,0#
 
-(El segundo SMS es para la configuración del APN de datos, y cambiará dependiendo del operador de tu tarjeta, mientras que el tercero es para configurar la IP del servidor al que vamos a enviar nuestra posición que, en nuestro caso, será [demo.traccar.org](demo.traccar.org)
+(El segundo SMS es para la configuración del APN de datos, y cambiará dependiendo del operador de tu tarjeta, mientras que el tercero es para configurar la IP del servidor al que vamos a enviar nuestra posición que, en nuestro caso, será [demo.traccar.org](https://demo.traccar.org)
  
-Hecho esto nos conectaremos mediante el navegador a [demo.traccar.org](demo.traccar.org) y procederemos a crearnos una cuenta y a dar de alta el dispositivo de localización, para lo que usaremos el IMEI que figura en la etiqueta del mismo, la que hemos levantado para acceder a la tarjeta SIM.
+Hecho esto nos conectaremos mediante el navegador a [demo.traccar.org](https://demo.traccar.org) y procederemos a crearnos una cuenta y a dar de alta el dispositivo de localización, para lo que usaremos el IMEI que figura en la etiqueta del mismo, la que hemos levantado para acceder a la tarjeta SIM.
 
 Finalmente procederemos a encender el dispositivo, lo que conseguiremos manteniendo pulsado el botón que hay a la derecha del puerto de carga durante unos 10 segundos (para acceder al botón de inicio y al puerto de carga levantaremos la tapita que hay en el lateral del dispositivo, tal como se muestra en la fotografía).
 
 ![image puerto de carga y botón de inicio](/assets/images/boton-de-inicio-y-puerto-carga-rastreador-gps.jpg)
 
-La batería del dispositivo viene durando unas 2 semanas, pudiendo hacer el seguimiento desde la misma página de [demo.traccar.org](demo.traccar.org). 
+La batería del dispositivo viene durando unas 2 semanas, pudiendo hacer el seguimiento desde la misma página de [demo.traccar.org](https://demo.traccar.org). 
 
-Si vas a usar este dispositivo con Simyo y no tienes cuenta aún con ellos, puedes usar enviarme un [email](mailto://dwsko24k@duck.com) y te facilitaré mi número de teléfono para que lo uses en el momento del alta y ambos nos llevemos un pequeños regalo de bienvenida...
+Si vas a usar este dispositivo con Simyo y no tienes cuenta aún con ellos, puedes usar enviarme un [email](mailto:dwsko24k@duck.com) y te facilitaré mi número de teléfono para que lo uses en el momento del alta y ambos nos llevemos un pequeños regalo de bienvenida...
