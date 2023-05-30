@@ -22,6 +22,12 @@ Seguidamente levantaremos la tapita del rastreador para acceder al compartimento
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lczrr8aBCS4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe><br>
 
+Una vez insertada nuestra tarjeta SIM, procederemos a encender el dispositivo, para lo que pulsaremos unos 2 segundos el botón de encendido, que se encuentra a la derecha del puerto de carga.
+
+![image puerto de carga y botón de inicio](/assets/images/boton-de-inicio-y-puerto-carga-rastreador-gps.jpg)
+
+Veremos que el dispositivo está encendido porque parparearán las luces azul y verde en la parte superior del dispositivo.
+
 A continuación enviaremos 3 SMS al número de teléfono asociado al rastreador con el siguiente contenido:
 
 1. FACTORYALL#
@@ -31,10 +37,6 @@ A continuación enviaremos 3 SMS al número de teléfono asociado al rastreador 
 (El segundo SMS es para la configuración del APN de datos, y cambiará dependiendo del operador de tu tarjeta, mientras que el tercero es para configurar la IP del servidor al que vamos a enviar nuestra posición que, en nuestro caso, será [demo.traccar.org](https://demo.traccar.org)
  
 Hecho esto nos conectaremos mediante el navegador a [demo.traccar.org](https://demo.traccar.org) y procederemos a crearnos una cuenta y a dar de alta el dispositivo de localización, para lo que usaremos el IMEI que figura en la etiqueta del mismo, la que hemos levantado para acceder a la tarjeta SIM.
-
-Finalmente procederemos a encender el dispositivo, lo que conseguiremos manteniendo pulsado el botón que hay a la derecha del puerto de carga durante unos 10 segundos (para acceder al botón de inicio y al puerto de carga levantaremos la tapita que hay en el lateral del dispositivo, tal como se muestra en la fotografía).
-
-![image puerto de carga y botón de inicio](/assets/images/boton-de-inicio-y-puerto-carga-rastreador-gps.jpg)
 
 La batería del dispositivo viene durando unas 2 semanas, pudiendo hacer el seguimiento desde la misma página de [demo.traccar.org](https://demo.traccar.org). 
 
