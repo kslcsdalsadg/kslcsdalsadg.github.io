@@ -38,6 +38,8 @@ A continuación enviaremos 3 SMS al número de teléfono asociado al rastreador 
  
 Hecho esto nos conectaremos mediante el navegador a [demo.traccar.org](https://demo.traccar.org) y procederemos a crearnos una cuenta y a dar de alta el dispositivo de localización, para lo que usaremos el IMEI que figura en la etiqueta del mismo, la que hemos levantado para acceder a la tarjeta SIM.
 
+![image captura de pantalla de traccar](/assets/images/traccar-screenshoot.jpg)
+
 La batería del dispositivo viene durando unas 2 semanas, pudiendo hacer el seguimiento desde la misma página de [demo.traccar.org](https://demo.traccar.org). 
 
-Si vas a usar este dispositivo con Simyo y no tienes cuenta aún con ellos, puedes usar enviarme un [email](mailto:dwsko24k@duck.com) y te facilitaré mi número de teléfono para que lo uses en el momento del alta y ambos nos llevemos un pequeños regalo de bienvenida...
+**Si vas a usar este dispositivo con Simyo y no tienes cuenta aún con ellos, puedes usar enviarme un [email](mailto:dwsko24k@duck.com) y te facilitaré mi número de teléfono para que lo uses en el momento del alta y ambos nos llevemos un pequeños regalo de bienvenida...**
