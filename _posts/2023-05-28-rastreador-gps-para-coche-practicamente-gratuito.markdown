@@ -34,7 +34,7 @@ A continuación enviaremos 3 SMS al número de teléfono asociado al rastreador 
 2. APN,orangeworld#
 3. server,0,46.101.24.212,5023,0#
 
-(El segundo SMS es para la configuración del APN de datos, y cambiará dependiendo del operador de tu tarjeta, mientras que el tercero es para configurar la IP del servidor al que vamos a enviar nuestra posición que, en nuestro caso, será [traccar.org](https://demo.traccar.org)
+(El segundo SMS es para la configuración del APN de datos, y cambiará dependiendo del operador de tu tarjeta, mientras que el tercero es para configurar la IP del servidor al que vamos a enviar nuestra posición y puede ser cualquiera de las que se listan [aquí](https://www.traccar.org/demo-server/)).
  
 Hecho esto nos conectaremos mediante el navegador a [demo.traccar.org](https://demo.traccar.org) y procederemos a crearnos una cuenta gratuíta y a dar de alta el dispositivo de localización, para lo que usaremos el IMEI que figura en la etiqueta del mismo, la que hemos levantado para acceder a la tarjeta SIM.
 
