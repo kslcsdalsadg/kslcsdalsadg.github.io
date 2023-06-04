@@ -1,6 +1,6 @@
 ---
 layout: splash 
-title:  "¿Qué necesitas para empezar a usar Home Assitant?"
+title:  "¿Qué necesitas para empezar a usar Home Assistant?"
 date:   2023-06-04 16:01:15 +0200
 categories: configuraciones domótica home-assistant
 header:
