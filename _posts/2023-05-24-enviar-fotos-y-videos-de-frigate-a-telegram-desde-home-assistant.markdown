@@ -33,7 +33,7 @@ condition:
     alias: Is a camera event?
     value_template: "{{ camera is defined }}"
 action:
-  - service: notify.telegram_urgente
+  - service: notify.telegram
     data:
       message: Foto {{ camera_name }}
       data:
@@ -80,7 +80,7 @@ condition:
 action:
   - delay:
       seconds: 5
-  - service: notify.telegram_urgente
+  - service: notify.telegram
     data:
       message: Vídeo {{ camera_name }}
       data:
