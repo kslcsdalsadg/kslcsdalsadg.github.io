@@ -43,3 +43,5 @@ Hecho esto nos conectaremos mediante el navegador a [demo.traccar.org](https://d
 La batería del dispositivo viene durando unas 2 semanas, pudiendo hacer el seguimiento desde la página web. 
 
 **Si vas a usar este dispositivo con Simyo y no tienes cuenta aún con ellos, puedes usar enviarme un [email](mailto:dwsko24k@duck.com) y te facilitaré mi número de teléfono para que lo uses en el momento del alta y ambos nos llevemos un pequeños regalo de bienvenida...**
+
+[Aquí](https://www.chollometro.com/comments/permalink/9006492) podéis encontrar algunos comandos adicionales para la configuración del rastreador, como por ejemplo la posibilidad de establecer perímetros de seguridad o incluso la opción de poder llamar al dispositivo (que también dispone de un micrófono) y escuchar lo que sucede en tu vehículo, si fuera el caso.
