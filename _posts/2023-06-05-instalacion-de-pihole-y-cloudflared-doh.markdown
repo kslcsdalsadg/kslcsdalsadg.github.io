@@ -147,10 +147,10 @@ pihole -a -p
 exit
 {% endhighlight %}
 
-Ahora sí, podremos ya acceder a la interfaz de Pihole para la configuración: http://[ip]:8080/admin (la IP será la IP de la máquina en la que estamos ejecutando el docker).
+Ahora sí, podremos ya acceder a la interfaz de Pihole para la configuración: http://[ip]:8080/admin (la IP será la de la máquina en la que estamos ejecutando el docker).
 
 Lo primero que haremos es apuntar nuestro Pihole a la instalación de Cloudflare DoH, para lo que accederemos a *Settings* -> *DNS*, desmarcaremos todas las opciones que se hayen activas en la columna de la izquierda, introduciremos *127.0.0.1#5053* en el campo valor de *Custom 1 (IPv4)* (columna de la derecha) y guardaremos los cambios haciendo clic en el botón *save* abajo a la derecha.
 
-Adicionalmente, accederemos a la configuración de nuestro router y, si es un router neutro, procederemos a cambiar la configuración DNS para que el servidor primario sea nuestro Pihole, procediendo a continuación a reiniciar el router para que los cambios sean efectivos.
+Adicionalmente, accederemos a la configuración de nuestro router y, si es un router neutro, procederemos a cambiar la configuración DNS para que el servidor primario sea nuestro Pihole, y el secundario el que prefiramos (1.1.1.1 para Cloudflare, que sería el recomendado, 8.8.8.8 para el caso de Google o cualquier otro de nuestra elección) procediendo a continuación a reiniciar el router para que los cambios sean efectivos.
 
 En caso que nuestro router sea de operador, lo más probable es que no nos permita cambiar el servidor de DNS, por lo que tendremos que cambiarlo manualmente en cada uno de los equipos que queramos.
