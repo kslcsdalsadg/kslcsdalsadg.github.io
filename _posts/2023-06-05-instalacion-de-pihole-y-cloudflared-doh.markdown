@@ -154,3 +154,5 @@ Lo primero que haremos es apuntar nuestro Pihole a la instalación de Cloudflare
 Adicionalmente, accederemos a la configuración de nuestro router y, si es un router neutro, procederemos a cambiar la configuración DNS para que el servidor primario sea nuestro Pihole, y el secundario el que prefiramos (1.1.1.1 para Cloudflare, que sería el recomendado, 8.8.8.8 para el caso de Google o cualquier otro de nuestra elección) procediendo a continuación a reiniciar el router para que los cambios sean efectivos.
 
 En caso que nuestro router sea de operador, lo más probable es que no nos permita cambiar el servidor de DNS, por lo que tendremos que cambiarlo manualmente en cada uno de los equipos que queramos.
+
+[Fuente](https://github.com/AzamServer/pihole-doh)
