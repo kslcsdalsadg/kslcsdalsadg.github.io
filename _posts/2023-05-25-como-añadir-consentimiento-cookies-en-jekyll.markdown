@@ -1,6 +1,6 @@
 ---
 layout: splash 
-title:  "Añadir consentimiento de cookies en Jekyll"
+title:  "Cómo añadir consentimiento de cookies en Jekyll"
 date:   2023-05-26 15:11:04 +0200
 categories: configuraciones 
 header:
