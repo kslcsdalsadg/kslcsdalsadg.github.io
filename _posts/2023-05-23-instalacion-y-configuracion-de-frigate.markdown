@@ -1,8 +1,9 @@
 ---
 layout: splash
-title:  "Instalación y configuración de Frigate"
+title:  Instalación y configuración de Frigate
+description: Instalación y configuración de Frigate para usarlo en un docker
 date:   2023-05-23 18:45:15 +0200
-categories: configuraciones domótica frigate
+categories: configuraciones domótica frigate docker
 header:
   overlay_image: /assets/images/frigate--banner.jpg
   overlay_filter: 0.5 

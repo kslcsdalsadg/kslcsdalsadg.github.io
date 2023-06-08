@@ -1,8 +1,9 @@
 ---
 layout: splash 
-title:  "Cómo añadir consentimiento de cookies en Jekyll"
+title:  Cómo añadir consentimiento de cookies en Jekyll
+description: Cómo añadir consentimiento de cookies en Jekyll (especialmente indicado para "Minimal Mistakes")
 date:   2023-05-26 15:11:04 +0200
-categories: configuraciones 
+categories: configuraciones jekyll dockers 
 header:
   overlay_image: /assets/images/cookies--banner.jpg
   overlay_filter: 0.5 

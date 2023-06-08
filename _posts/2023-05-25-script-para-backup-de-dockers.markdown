@@ -1,8 +1,9 @@
 ---
 layout: splash 
-title:  "Script para backup de datos de un docker"
+title:  Script para backup de datos de un docker
+description: Script para realizar backup de los datos de un docker (soporta bases de datos sqlite3)
 date:   2023-05-25 15:11:15 +0200
-categories: configuraciones domótica dockers
+categories: configuraciones domótica docker
 header:
   overlay_image: /assets/images/docker--banner.jpg
   overlay_filter: 0.5 

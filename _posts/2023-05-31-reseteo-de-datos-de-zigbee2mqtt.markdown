@@ -1,8 +1,9 @@
 ---
 layout: splash
-title:  "Reseteo de datos de zigbee2mqtt"
+title:  Reseteo de datos de zigbee2mqtt
+description: Reseteo de datos de zigbee2mqtt (en un docker)
 date:   2023-05-31 06:45:15 +0200
-categories: configuraciones domótica home-assistant zigbee2mqtt
+categories: configuraciones domótica home-assistant zigbee2mqtt docker
 header:
   overlay_image: /assets/images/zigbee2mqtt--banner.jpg
   overlay_filter: 0.5 

@@ -1,8 +1,9 @@
 ---
 layout: splash 
-title:  "¿Qué necesitas para empezar a usar Home Assistant?"
+title:  ¿Qué necesitas para empezar a usar Home Assistant?
+description: ¿Qué necesitas instalar (dockers) para empezar a usar Home Assistant?
 date:   2023-06-04 16:01:15 +0200
-categories: configuraciones domótica home-assistant
+categories: configuraciones docker domótica home-assistant
 header:
   overlay_image: /assets/images/home-assistant--banner.jpg
   overlay_filter: 0.5 

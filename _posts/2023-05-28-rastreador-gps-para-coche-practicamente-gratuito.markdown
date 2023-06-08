@@ -1,6 +1,7 @@
 ---
 layout: splash 
-title:  "Rastreador GPS para coche prácticamente gratuito"
+title:  Rastreador GPS para coche prácticamente gratuito
+description: Configuración de un rastreador GPS para usarlo con traccar (versión demo)
 date:   2023-05-28 15:11:15 +0200
 categories: gps
 header:

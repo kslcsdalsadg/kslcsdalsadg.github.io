@@ -1,8 +1,9 @@
 ---
 layout: splash 
-title:  "Instalación de Pihole y Cloudflared DoH"
+title:  Instalación de Pihole y Cloudflared DoH
+description: Instalación de Pihole y Cloudflared DoH (docker)
 date:   2023-06-04 16:01:15 +0200
-categories: configuraciones pi-hole cloudflare doh
+categories: configuraciones pi-hole cloudflare doh docker
 header:
   overlay_image: /assets/images/pihole--banner.jpg
   overlay_filter: 0.5 
