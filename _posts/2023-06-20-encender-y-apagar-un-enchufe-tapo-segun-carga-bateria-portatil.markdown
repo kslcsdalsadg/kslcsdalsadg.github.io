@@ -16,7 +16,7 @@ El problema es que, si la batería no se carga y descarga de forma correcta, se 
 
 Para solucionar este problema os presentamos hoy un script que permite encender o apagar un enchufe *TAPO* dependiendo del estado de la batería del ordenador, lo que os permitirá cargar de forma correcta la batería y maximizar su vida útil.
 
-Para implementar nuestro script de control, que podremos ejecutar por ejemplo en un cron, necesitaremos usar 2 librerías: [psutil](https://github.com/giampaolo/psutil) y [TapoP100](https://github.com/fishbigger/TapoP100), que podremos importar en nuestra instalación de *python* usando el comando *pip*.
+Para implementar nuestro script de control, que podremos ejecutar en un cron o bien en un [docker](/creación-de-un-docker-para-ejecutar-un-script-python/), necesitaremos usar 2 librerías: [psutil](https://github.com/giampaolo/psutil) y [TapoP100](https://github.com/fishbigger/TapoP100), que podremos importar en nuestra instalación de *python* usando el comando *pip*.
 
 El script en cuestión es el siguiente, que podéis configurar con el porcentaje de batería mínimo y máximo deseado (lo recomendable es que la batería siempre oscile entre el 20 y el 80%). Adicionalmente, tendréis que indicar la dirección IP del enchufe (que tendréis que configurar como estática en el router) y el username y contraseña de acceso a vuestra cuenta *TP-Link* (el username y contraseña con el que hacéis login en la app de *TAPO*). 
 
