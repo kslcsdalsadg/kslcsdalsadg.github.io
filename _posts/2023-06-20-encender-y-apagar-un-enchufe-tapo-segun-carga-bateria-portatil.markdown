@@ -1,7 +1,7 @@
 ---
 layout: splash 
-title:  Cómo encender y apagar un enchufe TAPO según el estado de carga de un ordenador portátil
-description: Cómo encender y apagar un enchufe TAPO según el estado de carga de un ordenador portátil
+title:  Encender y apagar un enchufe TAPO según el estado de carga de un ordenador portátil
+description: Encender y apagar un enchufe TAPO según el estado de carga de un ordenador portátil
 date:   2023-06-20 06:01:15 +0200
 categories: docker python
 header:
