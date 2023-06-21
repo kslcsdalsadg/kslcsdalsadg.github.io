@@ -38,12 +38,8 @@ if battery is not None:
     p100 = PyP100.P100(PLUG_IP_ADDRESS, PLUG_USERNAME, PLUG_PASSWORD)
     p100.handshake()
     p100.login()
-    is_plug_on = p100.getDeviceInfo()['result']['device_on']
-    toggle_plug_state = False
-    if battery.power_plugged and battery.percent >= BATTERY_CHARGED_PERCENT and is_plug_on:
-        toggle_plug_state = True
-    elif not battery.power_plugged and battery.percent <= BATTERY_DISCHARGED_PERCENT and not is_plug_on:
-        toggle_plug_state = True
-    if toggle_plug_state:
-        p100.toggleState()
+    if battery.power_plugged and battery.percent >= BATTERY_CHARGED_PERCENT:
+        p100.turn_off()
+    elif not battery.power_plugged and battery.percent <= BATTERY_DISCHARGED_PERCENT:
+        p100.turn_on()
 {% endhighlight %}
