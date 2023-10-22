@@ -116,11 +116,10 @@ docker-compose -f pihole.yml up -d
 
 Lo más probable es que nuestra instalación de Linux incluyera ya un servidor de DNS, en cuyo caso recibiremos un error al iniciar el docker: *Error starting userland proxy: listen tcp4 0.0.0.0:53: bind: address already in use.* 
 
-Eso se debe a que ya hay una aplicación escuchando (y sirviendo peticiones) en el puerto 53 (que es el puerto estándar de DNS). Procederemos a parar dicha app, con los siguientes comandos (que ejecutaremos con permisos de superusuario).
+Eso se debe a que ya hay una aplicación escuchando (y sirviendo peticiones) en el puerto 53 (que es el puerto estándar de DNS). Procederemos a configurar dicha app para que no lo haga, tras lo cual tendremos que reiniciar el servicio o la máquina. El archivo es */etc/systemd/resolved.conf* y básicamente tendremos que añadir la siguiente directiva:
 
 {% highlight bash %}
-systemctl disable systemd-resolved.service
-systemctl stop systemd-resolved
+DNSStubListener=no
 {% endhighlight %}
 
 Hecho esto podremos reiniciar el contenedor de Pihole, esta vez ya sin ningún error...
