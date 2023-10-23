@@ -119,6 +119,7 @@ Lo más probable es que nuestra instalación de Linux incluyera ya un servidor d
 Eso se debe a que ya hay una aplicación escuchando (y sirviendo peticiones) en el puerto 53 (que es el puerto estándar de DNS). Procederemos a configurar dicha app para que no lo haga, tras lo cual tendremos que reiniciar el servicio o la máquina. El archivo es */etc/systemd/resolved.conf* y básicamente tendremos que añadir la siguiente directiva:
 
 {% highlight bash %}
+DNS=127.0.0.1
 DNSStubListener=no
 {% endhighlight %}
 
