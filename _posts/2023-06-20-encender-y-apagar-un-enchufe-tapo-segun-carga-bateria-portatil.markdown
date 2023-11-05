@@ -10,7 +10,7 @@ header:
 excerpt: |
   ¿Cómo encender y apagar un enchufe TAPO según el estado de carga de un ordenador portátil?
 ---
-Muchos de nosotros tenemos Home Assistant, y otros servicios, en un ordenador portátil porque, entre otras, ofrece la ventaja de *integrar* un SAI en su interior.
+Muchos de nosotros tenemos Home Assistant, y otros servicios, en un ordenador portátil porque, entre otras, ofrece la ventaja de *integrar* un SAI en su interior. 
 
 El problema es que, si la batería no se carga y descarga de forma correcta, se va a degradar muy rápidamente.
 
