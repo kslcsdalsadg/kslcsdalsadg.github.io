@@ -12,18 +12,19 @@ excerpt: |
 ---
 Por defecto Pihole utiliza los servicios de [Google](https://dns.google), [Cloudflare](https://www.cloudflare.com/es-es/application-services/products/dns/), [Quad9](https://www.quad9.net/es/) y otros, según configuración, para resolver los nombres de dominio que se le preguntan.
 
-Cada uno de estos servicios tiene diferentes políticas de privacidad, siendo más beneficiosas para el usuario las de Cloudflare o Quad9 que las de Google, aunque el tiempo de respuesta de los servidores de Google es, por otro lado, inferior al del resto.
+Cada uno de estos servicios tiene su política de privacidad determinada aunque podríamos resumir en que:
 
-En cualquier caso, toda la información sobre los sitios a los que accedemos va a pasar por los servicios de Cloudflare, Quad9 o Google, que podrían utilizarla según su propia conveniencia.
+a) No es bueno que una empresa tenga acceso a la lista completa de sitios de Internet a los que nos conectamos,
+b) Cualquiera que tenga acceso a los datos que intercambiamos con el servidor de DNS que utiliza Pihole tiene acceso a la lista de sitios a los que nos conectamos.
 
-Para evitar esto podemos instalar **unbound**, que es un servicio recursivo de resolución de nombres que accede directamente a la fuente de los datos, los servidores de dominio raíz, para realizar la traducción de nombres a direcciones IP, de la misma forma en que lo hacen Cloudflare, Quad9 o Google. Pero entonces, ¿qué conseguimos con esto? Pues básicamente diversificar y que ningún servidor tenga la información completa de los sitios por los que nos movemos. 
+No existe una solución que permita resolver estos 2 problemas, así que tendremos que optar por aquella que nos parezca más importante.
 
-Así, cuando Pihole necesite conocer la dirección IP asociada a un nombre de dominio, éste preguntará al servicio **unbound**, que se aloja en su mismo contenedor y, solo si **unbound** desconoce esta dirección, preguntará al servicio raíz y a los servicios oficiales relacionados, dependiendo del nombre que necesitemos resolver.
+Para resolver el problema de que una empresa tenga acceso a la lista completa de sitios a los que nos conectamos podemos usar *unbound*, una aplicación que se instala en el contenedor en el que hemos instalado Pihole y que hace las veces de *servidor de DNS recursivo*, conectándose al servicio raíz y a los nodos que corresponda para resolver cada una de las partes de cada dominio.
 
-Todas las peticiones de resolución de nombres se enrutan a través de un puerto determinado, lo que permite a agentes externos, como por ejemplo el operador con el que tenemos contratada la fibra, acceder muy fácilmente a esta información.
+Por su parte, para resolver el problema de que un tercero pueda obtener la lista de sitios a los que accedemos podemos usar una conexión segura contra Cloudflare, lo que se denomina *cloudflared-doh*. 
 
-Podemos evitar esto usando el *servicio de traducción de nombres bajo https que ofrece Cloudflare desde hace ya bastante tiempo*. Así, todas nuestras peticiones viajarían hasta los servidores de Cloudflare por un canal seguro lo que evitaría que fueran observadas por algún tercero a costa de entregárselas en bandeja a Cloudflare, si bien la política de privacidad de este servicio garantiza, a día de hoy, que no almacenan registros que nos puedan identificar y que no guardan datos más que por 25 horas.
+Ambas soluciones tienen sus pros y contras y aunque personalmente uso *unbound*, considero que las políticas de privacidad de Cloudflare (no almacena logs que permitan identificar a los usuarios y solo almacena los logs durante 25 horas) son suficientemente buenas como para plantearse su uso.
 
-[Contenedores y archivos de configuración](/assets/bin/pi-hole.tar)
+Elijas la opción que elijas, te dejo [aquí](/assets/bin/pi-hole.tar) la descripción de los contenedores y configuraciones de Pihole para usar tanto *unbound* como *cloudflared-doh*.
 
 [Fuente](https://docs.pi-hole.net)
