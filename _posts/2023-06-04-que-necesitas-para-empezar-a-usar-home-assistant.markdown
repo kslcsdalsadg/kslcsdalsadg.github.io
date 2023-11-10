@@ -38,7 +38,7 @@ Para usar Home Assistant nos puede servir prácticamente cualquier hardware, inc
 
 **Notificaciones**
 
-Y claro, si has instalado Frigate querrás recibir notificaciones en Telegram, para lo cual tendrás que ver los sigueintes artículos: [enviar mensajes a Telegram](/configuraciones/domótica/home-assistant/enviar-mensajes-a-telegram-desde-home-assistant) y [enviar fotos y vídeos de Frigate a Telegram](/configuraciones/domótica/home-assistant/frigate/enviar-fotos-y-videos-de-frigate-a-telegram-desde-home-assistant).
+Y claro, si has instalado Frigate querrás recibir notificaciones en Telegram, para lo cual tendrás que ver los sigueintes artículos: [enviar mensajes a Telegram](/enviar-mensajes-a-telegram-desde-home-assistant) y [enviar fotos y vídeos de Frigate a Telegram](/enviar-fotos-y-videos-de-frigate-a-telegram-desde-home-assistant).
 
 
 

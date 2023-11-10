@@ -10,7 +10,7 @@ header:
 excerpt: |
   Ejemplo práctico de cómo enviar mensajes a un canal de Telegram usando una automatización de Home Assistant.
 ---
-En los dos posts anteriores aprendimos cómo configurar [Frigate](/configuraciones/domótica/frigate/instalacion-y-configuracion-de-frigate) y [cómo crear un bot en Telegram](/configuraciones/domótica/home-assistant/enviar-mensajes-a-telegram-desde-home-assistant) y usarlo en Home Assistant para enviar mensajes a un grupo o canal.
+En los dos posts anteriores aprendimos cómo configurar [Frigate](/instalacion-y-configuracion-de-frigate) y [cómo crear un bot en Telegram](/como-enviar-fotos-y-videos-de-frigate-a-telegram-desde-home-assistant) y usarlo en Home Assistant para enviar mensajes a un grupo o canal.
 
 En este post simplemente mostraré dos automatizaciones en las que uso estos dos conceptos para enviar una foto y un vídeo de la última detección de Frigate a un canal de Telegram.
 
@@ -55,7 +55,7 @@ mode: single
 {% endraw %}
 {% endhighlight %}
 
-Ten en cuenta que el nombre del servicio, *notify.telegram_urgente* en mi caso, tendrá que ser el que hayas indicado en la configuración de Home Assistant (ver post [cómo crear un bot en Telegram](/configuraciones/domótica/home-assistant/enviar-mensajes-a-telegram-desde-home-assistant)).
+Ten en cuenta que el nombre del servicio, *notify.telegram_urgente* en mi caso, tendrá que ser el que hayas indicado en la configuración de Home Assistant (ver post [cómo crear un bot en Telegram](/enviar-mensajes-a-telegram-desde-home-assistant)).
 
 Es interesante notar que para que la automatización se inicie usamos el topic *frigate/events* que es el que usa Frigate para el envío de mensajes a través de *mqtt*. Además, como Frigate envía varios mensajes cada vez que realiza una detección, tendremos especial cuidado de enviar notificación sólo de las nuevas detecciones y, como Frigate nos permite detectar muchos objetos diferentes, notificaremos sólo las detecciones de personas (desgraciadamente la detección de Frigate no es perfecta y un cierto número de detecciones son falsos positivos, [que podemos mitigar en mayor o menor medida](https://docs.frigate.video/guides/false_positives)).
 

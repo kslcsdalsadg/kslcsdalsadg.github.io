@@ -10,7 +10,7 @@ header:
 excerpt: |
   Home Assistant es un software libre que permite la automatización de tareas del hogar y al que pueden añadirse literalmente miles de plugins que permiten la automatización de casi cualquier cosa que puedas imaginar.
 ---
-Desde subir o bajar las persianas dependiendo de la luz solar hasta gestionar las diferentes cámaras de seguridad (ver post relativo a [Frigate](/configuraciones/domótica/frigate/instalacion-y-configuracion-de-frigate)), pasando por una automatización que encienda la televisión cuando llegas a casa, con [Home Assistant](https://www.home-assistant.io) puedes automatizar casi cualquiera de las cosas que ocurren en tu hogar.
+Desde subir o bajar las persianas dependiendo de la luz solar hasta gestionar las diferentes cámaras de seguridad (ver post relativo a [Frigate](/instalacion-y-configuracion-de-frigate)), pasando por una automatización que encienda la televisión cuando llegas a casa, con [Home Assistant](https://www.home-assistant.io) puedes automatizar casi cualquiera de las cosas que ocurren en tu hogar.
 
 Además, Home Assistant permite enviar notificaciones de forma nativa tanto a la aplicación para Android o iOS como a uno o más canales de Telegram. 
 
