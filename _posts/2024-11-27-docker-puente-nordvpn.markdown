@@ -120,6 +120,7 @@ services:
       - net.ipv6.conf.all.disable_ipv6=1  # Recomended if using ipv4 only
 {% endhighlight %}
 
+
 **qbittorrent**
 
 Modificaremos ligeramente la receta docker descrita en [Github](https://github.com/linuxserver/docker-qbittorrent) para definir un servicio que nos permita descargar archivos *torrent* a través de la VPN.
