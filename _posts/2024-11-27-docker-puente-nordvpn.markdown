@@ -176,3 +176,5 @@ Por último, indicar que la primera vez que accedáis a la UI (usuario slskd y c
 5. clic en *save*
 
 6. reiniciar el servicio
+
+Nota: Los archivos *tar* se han construído con las configuraciones indicadas en los repositorios de cada uno de los proyectos relacionados.
