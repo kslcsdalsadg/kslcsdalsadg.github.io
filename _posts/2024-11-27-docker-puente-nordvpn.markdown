@@ -160,3 +160,14 @@ Igual que con *qbittorrent*, simplemente usaremos el servicio descrito en [Githu
       - SLSKD_REMOTE_CONFIGURATION=true
     restart: unless-stopped
 {% endhighlight %}
+
+Los puertos que hay que añadir son el 5030 (para conectar por *http* con la UI de Soulseek), el 5031 (para conectar por *https* con la UI de Soulseek) y el 50300 (el puerto de servicio de Soulseek).
+
+Por último, indicar que la primera vez que accedáis a la UI (usuario slskd y contraseña slskd) deberéis configurar vuestro usuario/password de acceso al servicio:
+
+1) clic en el icono *system* (arriba a la derecha)
+2) clic en la pestaña *options*
+3) clic en *edit*
+4) buscar *web* y descomentar todo lo que cuelga, estableciendo además un usuario/contraseña (ambos inventados)
+5) clic en *save*
+6) reiniciar el servicio
