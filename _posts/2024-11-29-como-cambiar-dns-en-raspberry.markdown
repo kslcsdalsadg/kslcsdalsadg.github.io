@@ -26,7 +26,7 @@ IP4.DNS[2]:                             192.168.31.6
 Seguidamente, ejecutaremos los comandos: 
 
 {% highlight shell %}
-sudo nmcli conn modify "[Wired connection 1]"  ipv4.dns "192.168.31.7 192.168.31.8"
+sudo nmcli conn modify "Wired connection 1"  ipv4.dns "192.168.31.7 192.168.31.8"
 sudo nmcli conn modify "Wired connection 1"  ipv4.ignore-auto-dns yes
 sudo systemctl restart NetworkManager
 {% endhighlight %}
